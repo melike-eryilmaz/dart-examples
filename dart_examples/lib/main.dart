@@ -2,8 +2,11 @@ import 'package:flutter/material.dart';
 
 void main() {
   //Bir flutter projesinde ilk olarak çalışan kısım main() fonksiyondur.
+  //Dart dili case sensitive dir.Yani büyük küçük harf duyarlıdır.
+
   print("Hellooo flutter");
 
+  //Variables / Değişkenler Dart
   //Değişken isimlendirmeleri camelCase veya PascalCase standartlarında yapılır.
   String message = "Hi! Melike";
   int age = 24;
@@ -20,6 +23,7 @@ void main() {
    * APPBAR WİDGET              CENTER WİDGET
    * TEXT                        TEXT 
    */
+
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
     home: Scaffold(
