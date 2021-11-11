@@ -33,5 +33,21 @@ void main() {
       body: Center(child: Text("Scaffold Content")),
     ),
   ));
-  //runApp(const MyApp());
+
+  //Condition Blocks Dart
+  var isLoggin = false;
+  if (isLoggin) {
+    print("Anasayfaya gidildi.");
+  } else {
+    print("Logine yönlendirildi.");
+  }
+
+  int puan = 65;
+  if (puan >= 50) {
+    print("Geçti.");
+  } else if (puan >= 40) {
+    print("Bütünleme");
+  } else {
+    print("Kaldı.");
+  }
 }
